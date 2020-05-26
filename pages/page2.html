@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Homework Bootstrap 2</title>
+    <meta name="description" content="Code First: Girls front-end developer course homework with Bootstrap page 2.">
+    
+    <!-- Bootstrap -->
+    <link
+        rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+        crossorigin="anonymous"
+    >
+    <!-- Font Awesome Icons -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+        crossorigin="anonymous"
+    >
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+
+<body>
+    <!-- Nav -->
+    <nav class="navbar navbar-expand-md fixed-top navbar-light bg-light border-bottom">
+        <a class="pb-0 navbar-brand text-uppercase" href="../index.html">
+            <h1>Homework</h1>
+        </a>
+
+        <button
+            type="button"
+            class="navbar-toggler"
+            data-toggle="collapse"
+            data-target="#mainNavigation"
+            aria-controls="mainNavigation"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+        >
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="mainNavigation">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="http://www.google.com" target="_blank" rel="noreferrer">
+                        Google
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    
+    <!-- Main -->
+    <main class="pt-5">   
+        <div class="hero hero-image jumbotron jumbotron-fluid">
+            <div class="container ml-0 px-4 text-white">
+                <h2 class="display-4">Welcome to Page 2!</h2>
+
+                <p class="lead">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim nemo dolor consequatur fugit voluptatem facilis
+                    saepe iure debitis distinctio cum libero atque laborum perferendis, officia quo quod eum, velit corrupti.
+                </p>
+            </div>
+        </div>
+
+        <div class="container">
+            <section id="media" class="media-gallery row no-gutters justify-content-around mb-4">
+                <figure class="figure">
+                    <iframe
+                        title="Whale Shark - BBC Planet Earth"
+                        src="https://www.youtube.com/embed/_B8qiqeDrI0"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen
+                    >
+                    </iframe>
+
+                    <!-- caption -->
+                    <figcaption class="figure-caption text-center">Whale Shark documentary form BBC</figcaption>
+                </figure>
+        
+                <figure class="figure">
+                    <video controls>
+                        <source src="../video/movie.mp4" type="video/mp4">
+                    </video>
+
+                    <!-- caption -->
+                    <figcaption class="figure-caption text-center">Construction toy demo</figcaption>
+                </figure>
+            </section><!-- end of media -->
+        
+            <section id="poll" class="row justify-content-center mb-4">
+                <div class="col-11 col-sm-9 col-md-7 col-lg-5">
+                    <table class="table table-bordered table-striped">
+                        <thead>
+                            <tr>
+                                <th>Language</th>
+                                <th>Difficulty</th>
+                                <th>Star rating</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td>HTML</td>
+                                <td>2</td>
+                                <td>2</td>
+                            </tr>
+
+                            <tr>
+                                <td>CSS</td>
+                                <td>5</td>
+                                <td>4</td>
+                            </tr>
+
+                            <tr>
+                                <td>Javascript</td>
+                                <td>7</td>
+                                <td>5</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div> 
+            </section><!-- end of poll -->
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="pt-4 pb-2 bg-dark text-white">
+        <div class="mb-3 d-flex justify-content-center">
+            <a
+                href="https://www.facebook.com"
+                class="social-link mr-3 d-inline-flex justify-content-center align-items-center"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="Facebook"
+            >
+                <i class="fab fa-facebook-f"></i>
+            </a>
+
+            <a
+                href="https://www.instagram.com"
+                class="social-link d-inline-flex justify-content-center align-items-center"
+                target="_blank"
+                rel="noreferrer" 
+                aria-label="Instagram"
+            >
+                <i class="fab fa-instagram"></i>
+            </a>
+        </div> 
+
+        <p class="text-center">
+            Made with <span class="heart">&hearts;</span> by Code First Girls &copy; 2019
+        </p>
+    </footer>
+
+    <!-- Bootstrap JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+        src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"
+    >
+    </script>
+    <script
+        src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"
+    >
+    </script>
+    <script
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"
+    >
+    </script>
+</body>
+
+</html>
